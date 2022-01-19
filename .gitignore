@@ -2,3 +2,8 @@
 *.ro
 logs/
 *.h5
+opus-mt-en-it-finetuned-en-to-ro/
+opus-mt-en-ro-europarl/
+opus-mt-en-ro-finetuned-en-to-ro/
+neural_machine_translation_with_transformer_align.ipynb
+.ipynb_checkpoints/
