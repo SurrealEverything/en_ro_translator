@@ -50,6 +50,46 @@
 
 # SOTA Approach
 
+## Method:
+
+**Pre-processing**: 
+- .
+
+**Tokenizer**:
+- SentencePiece;
+
+**Model**:
+- Transformer Align;
+- ~ mil parameters;
+- Pre-trained on.
+
+**Training**:
+- ;
+-  epochs;
+- BLEU was the validation metric.
+
+**Decoding**:
+- Greedy;
+- Beam search;
+- Top-K Sampling;
+- Top-p (nucleus) Sampling;
+- Top-K & Top-p Sampling.
+
+<!-- ![Alt text](/assets/transformer_align.png?raw=true "") -->
+
+<!-- ![Alt text](/assets/2.png?raw=true "") -->
+
+## Discussion:
+
+**Metric**:
+- The BLEU score obtained from raw sequences was .
+
+**Examples**:
+- .
+
+**Limitations**:
+- .
+
 # Resources:
 https://keras.io/examples/nlp/neural_machine_translation_with_transformer/
 
