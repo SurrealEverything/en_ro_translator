@@ -93,3 +93,5 @@
 https://keras.io/examples/nlp/neural_machine_translation_with_transformer/
 
 https://medium.com/@tskumar1320/how-to-fine-tune-pre-trained-language-translation-model-3e8a6aace9f
+
+https://arxiv.org/abs/1909.02074
