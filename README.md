@@ -31,8 +31,7 @@
 ## Discussion:
 
 **Metric**:
-- The BLEU score obtained from raw sequences was 0.10;
-- The BLEU score obtained after minimal post-processing (removing special tokens and punctuation from both sequences) was 1.39;
+- The BLEU score obtained from raw sequences was 1.39;
 - Accuracy (on the validation set) was 0.5584.
 
 **Examples**:
