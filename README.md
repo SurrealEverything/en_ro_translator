@@ -3,7 +3,6 @@
 ## Method:
 
 **Pre-processing**: 
-- Letters were converted to lowercase;
 - Punctuation was removed;
 - [start] and [end] tags were added to Romanian sentences.
 
@@ -19,20 +18,21 @@
 **Training**:
 - RMSprop;
 - 40 epochs;
-- accuracy was the validation metric.
+- Validation metric: accuracy.
 
-**Decoding**:
-- Greedy.
+**Model Diagram**:
 
-![Alt text](/assets/transformer.png?raw=true "")
+![Alt text](/assets/transformer.png)
 
-![Alt text](/assets/1.png?raw=true "")
+**Convergence**:
 
-## Discussion:
+![Alt text](/assets/1.png?raw=true)
+
+## Results (on Europarl):
 
 **Metric**:
-- The BLEU score obtained from raw sequences was 1.39;
-- Accuracy (on the validation set) was 0.5584.
+- BLEU score (Greedy): 1.39;
+- Accuracy (on the validation set): 0.5584.
 
 **Examples**:
 - “Madam President, Commissioner, ladies and gentlemen, I would like to thank all of the political groups and everyone who has spoken for the support and the constructive tone of their speeches. [start] doamnă preşedintă domnule comisar doamnelor şi domnilor aş dori să mulţumesc tuturor grupurilor politice şi tuturor celor care au [UNK]”;
@@ -47,41 +47,56 @@
 - The model doesn't output punctuations;
 - Sometimes, sentences contain mistakes that are a direct result of our model’s limited learning capacity. Performance could be improved by using more recent architectures, pre-trained weights and bigger neural networks.
 
-# SOTA Approach
+# Hugging Face - Helsinki (fine-tuned)
 
 ## Method:
 
 **Pre-processing**: 
-- .
+- Normalization.
 
 **Tokenizer**:
-- SentencePiece;
+- SentencePiece (trained on the OPUS dataset).
 
 **Model**:
 - Transformer Align;
 - ~ mil parameters;
-- Pre-trained on.
+- Pre-trained on English to Italian translation on the OPUS dataset.
 
 **Training**:
-- ;
--  epochs;
-- BLEU was the validation metric.
+- AdamW;
+- 1 epoch;
+- Validation metric: BLEU;
+- Fine-tuned on English to Romanian translation on the WMT 2016 dataset.
 
-**Decoding**:
-- Greedy;
-- Beam search;
-- Top-K Sampling;
-- Top-p (nucleus) Sampling;
-- Top-K & Top-p Sampling.
+**Model Diagram**: included in ![assets/](/assets/)
 
-<!-- ![Alt text](/assets/transformer_align.png?raw=true "") -->
+**Convergence**:
+<!-- ![Alt text](/assets/1.png?raw=true "") -->
 
-<!-- ![Alt text](/assets/2.png?raw=true "") -->
-
-## Discussion:
+## Results (on Europarl):
 
 **Metric**:
-- The BLEU score obtained from raw sequences was .
+- BLEU score (Greedy): ;
+- BLEU score (Beam search): .
+
+**Examples**:
+- .
+
+**Limitations**:
+- .
+
+# Hugging Face - Helsinki (pre-trained)
+
+## Method:
+
+The same architecture as above, this time directly using pre-trained weights from English to Romanian translation on the OPUS dataset.
+
+## Results (on Europarl):
+
+
+**Metric**:
+- BLEU score (Greedy): ;
+- BLEU score (Beam search): .
 
 **Examples**:
 - .
