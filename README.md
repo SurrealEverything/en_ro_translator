@@ -59,7 +59,7 @@
 
 **Model**:
 - Transformer Align;
-- ~ mil parameters;
+- ~75 mil parameters;
 - Pre-trained on English to Italian translation on the OPUS dataset.
 
 **Training**:
