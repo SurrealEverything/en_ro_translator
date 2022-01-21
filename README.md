@@ -70,9 +70,6 @@
 
 **Model Diagram**: included in ![assets/](/assets/)
 
-**Convergence**:
-<!-- ![Alt text](/assets/1.png?raw=true "") -->
-
 ## Results (on Europarl):
 
 **Metric**:
