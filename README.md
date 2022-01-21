@@ -22,11 +22,11 @@
 
 **Model Diagram**:
 
-![Alt text](/assets/transformer.png)
+![here](/assets/transformer.png)
 
 **Convergence**:
 
-![Alt text](/assets/1.png?raw=true)
+![](/assets/1.png?raw=true)
 
 ## Results (on Europarl):
 
