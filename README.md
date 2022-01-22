@@ -1,3 +1,5 @@
+![](/assets/results.png?raw=true)
+
 # Naive Approach
 
 ## Method:
