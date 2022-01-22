@@ -2,6 +2,8 @@
 
 ![](/assets/results.png?raw=true)
 
+# Weights: ![link](https://drive.google.com/drive/folders/1LoHHX3FV6f367NHQv1GfCeN4tucau48s?usp=sharing)
+
 # Naive Approach
 
 ## Method:
