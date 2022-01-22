@@ -73,8 +73,8 @@
 ## Results (on Europarl):
 
 **Metric**:
-- BLEU score (Greedy): ;
-- BLEU score (Beam search): .
+- BLEU score (Greedy): 11.89;
+- BLEU score (Beam search): 12.25.
 
 **Examples**:
 - .
@@ -92,8 +92,8 @@ The same architecture as above, this time directly using pre-trained weights fro
 
 
 **Metric**:
-- BLEU score (Greedy): ;
-- BLEU score (Beam search): .
+- BLEU score (Greedy): 43.84;
+- BLEU score (Beam search): 43.84.
 
 **Examples**:
 - .
