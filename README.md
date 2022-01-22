@@ -1,6 +1,12 @@
 # Results
 
-![](/assets/results.png?raw=true)
+| Model             | Params     | Pre-trained  | Fine-tuned | Tokenizer      | Decoding    | BLEU  |
+|-------------------|------------|--------------|------------|----------------|-------------|-------|
+| Transformer       | 19,960,216 | FALSE        | Europarl   | Word           | Greedy      | 1.39  |
+| Transformer Align | 74,624,512 | EN2IT - OPUS | WMT 2016   | Sentence Piece | Greedy      | 11.89 |
+| Transformer Align | 74,624,512 | EN2IT - OPUS | WMT 2016   | Sentence Piece | Beam Search | 12.25 |
+| Transformer Align | 74,624,512 | EN2RO - OPUS | FALSE      | Sentence Piece | Greedy      | 43.83 |
+| Transformer Align | 74,624,512 | EN2RO - OPUS | FALSE      | Sentence Piece | Beam Search | **43.84** |
 
 # Weights: ![link](https://drive.google.com/drive/folders/1LoHHX3FV6f367NHQv1GfCeN4tucau48s?usp=sharing)
 
