@@ -1,6 +1,6 @@
 # Results
 
-![](/assets/results.png?raw=true)
+![](/assets/.png?raw=true)
 
 # Naive Approach
 
