@@ -1,4 +1,4 @@
-# Results
+# EuroParl Results
 
 | Model             | Params     | Pre-trained  | Fine-tuned | Tokenizer      | Decoding    | BLEU  |
 |-------------------|------------|--------------|------------|----------------|-------------|-------|
