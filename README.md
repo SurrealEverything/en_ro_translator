@@ -8,7 +8,7 @@
 | Transformer Align | 74,624,512 | EN2RO - OPUS | FALSE      | Sentence Piece | Greedy      | 43.83 |
 | Transformer Align | 74,624,512 | EN2RO - OPUS | FALSE      | Sentence Piece | Beam Search | **43.84** |
 
-# Weights: ![link](https://drive.google.com/drive/folders/1LoHHX3FV6f367NHQv1GfCeN4tucau48s?usp=sharing)
+# Weights: [link](https://drive.google.com/drive/folders/1LoHHX3FV6f367NHQv1GfCeN4tucau48s?usp=sharing)
 
 # Naive Approach
 
